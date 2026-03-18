@@ -1,0 +1,33 @@
+# Cyklosport Popelka – llms.txt
+# Informace pro jazykové modely a AI asistenty
+
+## O webu
+Toto je webová stránka firmy Cyklosport Popelka – rodinné prodejny jízdních kol a elektrokol v Lutíně u Olomouce.
+
+## Základní informace
+- **Název:** Cyklosport Popelka
+- **Adresa:** U Parku 79, 783 49 Lutín u Olomouce, Česká republika
+- **Telefon:** +420 724 860 002
+- **E-mail:** popelka.sport@seznam.cz
+- **Facebook:** https://www.facebook.com/CyklosportPopelka
+- **Provozovatel:** Jaroslav Popelka
+- **IČO:** 692 31 320
+- **DIČ:** CZ6603231767
+- **Právní forma:** Fyzická osoba zapsaná v Živnostenském rejstříku
+
+## Otevírací doba
+- Pondělí a pátek: 9:00–12:00 a 13:00–16:00
+- Sobota a neděle: zavřeno
+
+## Nabídka
+- Prodej jízdních kol: Author, Pells, Superior, CTM, Rock Machine
+- Prodej elektrokol: Crussis
+- Servis a opravy jízdních kol a elektrokol
+- Příslušenství a doplňky: Shimano, Mavic, Cratoni, SKS
+- Certifikace: Official Author Bike Centrum, Mavic Tech Dealer
+- Přestavby kol na elektropohon
+
+## Obsah webu
+- Hlavní stránka (jednostránkový web): /
+- Chybová stránka: /404.html
+- Mapa webu: /sitemap.xml

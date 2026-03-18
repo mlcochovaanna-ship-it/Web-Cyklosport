@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stránka nenalezena – Cyklosport Popelka</title>
+    <meta name="description" content="Stránka nebyla nalezena. Vraťte se na hlavní stránku Cyklosport Popelka.">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="canonical" href="https://www.cyklosportpopelka.cz/">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --color-primary: #FF7D23;
+            --color-bg: #F5F4F2;
+            --color-text: #333333;
+            --color-secondary: #7E8088;
+            --gradient-btn: linear-gradient(140deg, #FF7D23, #B34800);
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: var(--color-bg);
+            color: var(--color-text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .error-wrap {
+            max-width: 520px;
+        }
+
+        .error-icon {
+            font-size: 5rem;
+            color: var(--color-primary);
+            margin-bottom: 24px;
+            opacity: 0.7;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .error-code {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(5rem, 15vw, 10rem);
+            line-height: 1;
+            color: rgba(0,0,0,0.06);
+            margin-bottom: -16px;
+            letter-spacing: 0.05em;
+        }
+
+        h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(1.8rem, 4vw, 3rem);
+            color: var(--color-text);
+            margin-bottom: 16px;
+            letter-spacing: 0.03em;
+        }
+
+        p {
+            font-size: 0.95rem;
+            color: var(--color-secondary);
+            line-height: 1.75;
+            margin-bottom: 36px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--gradient-btn);
+            color: white;
+            padding: 14px 30px;
+            border-radius: 50px;
+            font-size: 0.88rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(255,125,35,0.35);
+            margin: 6px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 28px rgba(255,125,35,0.48);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--color-text);
+            border: 2px solid rgba(0,0,0,0.12);
+            box-shadow: none;
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--color-primary);
+            color: var(--color-primary);
+            box-shadow: none;
+        }
+
+        .logo {
+            position: fixed;
+            top: 24px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 44px;
+            width: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="/" class="logo" aria-label="Cyklosport Popelka – domů">
+        <img src="Obrazky/logo-cyklosport.png" alt="Cyklosport Popelka" width="180" height="44">
+    </a>
+
+    <div class="error-wrap">
+        <div class="error-code" aria-hidden="true">404</div>
+        <div class="error-icon" aria-hidden="true">
+            <i class="fa-regular fa-face-frown"></i>
+        </div>
+
+        <h1>Stránka nenalezena</h1>
+        <p>
+            Omlouváme se, požadovaná stránka neexistuje nebo byla přesunuta.<br>
+            Vraťte se na hlavní stránku nebo nás kontaktujte.
+        </p>
+
+        <div>
+            <a href="/" class="btn">
+                <i class="fa-solid fa-house" aria-hidden="true"></i>
+                Zpět na hlavní stránku
+            </a>
+            <a href="tel:+420724860002" class="btn btn-secondary">
+                <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                +420&nbsp;724&nbsp;860&nbsp;002
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(open \"/Users/annamlcochova/Documents/WEBY/00_VC weby/Cyklosport Popelka 0000/Web Cyklosport 0000/index.html\")",
+      "Bash(python3 -c \":*)"
+    ]
+  }
+}
