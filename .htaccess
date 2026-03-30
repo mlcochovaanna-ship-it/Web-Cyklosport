@@ -2,6 +2,18 @@
 # Cyklosport Popelka – .htaccess
 # ================================================
 
+# ================================================
+# Přesměrování starých URL na nový web (301)
+# ================================================
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Přesměrování všech neexistujících URL na homepage
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ / [R=301,L]
+</IfModule>
+
 # Vlastní chybové stránky
 ErrorDocument 404 /404.html
 
