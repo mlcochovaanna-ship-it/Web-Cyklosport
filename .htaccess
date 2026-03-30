@@ -28,8 +28,8 @@ ErrorDocument 404 /404.html
     # Content Security Policy
     Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https://*.googleapis.com https://*.gstatic.com https://*.google.com; frame-src https://maps.google.com https://www.google.com; connect-src 'self';"
 
-    # HSTS – HTTPS vynucení (aktivovat až po nasazení SSL)
-    # Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+    # HSTS – HTTPS vynucení
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
 
 </IfModule>
 
