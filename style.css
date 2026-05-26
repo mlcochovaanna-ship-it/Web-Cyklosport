@@ -769,6 +769,10 @@ p:last-child {
     cursor: default;
 }
 
+a.brand-tag {
+    cursor: pointer;
+}
+
 .brand-tag:hover {
     border-color: var(--color-primary);
     color: var(--color-primary-dark);
@@ -1030,7 +1034,7 @@ p:last-child {
 
 .servis-list-item {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
     font-size: 1rem;
     line-height: 1.55;
@@ -1040,7 +1044,6 @@ p:last-child {
 .servis-list-item i {
     color: var(--color-primary);
     font-size: 0.85rem;
-    margin-top: 5px;
     flex-shrink: 0;
 }
 
